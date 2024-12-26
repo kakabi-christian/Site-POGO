@@ -1,0 +1,238 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    width: 100%;
+    background-color: rgb(51, 51, 194);
+    height: 60px;
+}
+.pogo,.game,.select1,.register,.club-pogo,.sign,.registre
+{
+    color:  white;
+    padding-top: 10px;
+}
+.header-container
+{
+    display: flex;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    gap: 20px;
+    font-size: 20px;
+}
+.image img:hover
+{
+    transform: scale(0.75);
+    transition: 1.3s ease-in;
+}
+.club-pogo
+{
+    display: flex;
+    gap: 20px;
+}
+.btn-search
+{
+    display: flex;
+}
+.search
+{
+    border: 2px blue solid;
+    border-radius: 10px;
+    background-color: rgb(51, 51, 194);
+    width: 200px;
+    height: 40px;
+    text-align: center;
+}
+.search-game
+{
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.button-search a img 
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 7px;
+}
+.btn-search input
+{
+    width: 117px;
+    background-color: rgb(51, 51, 194);
+    background-color: rgb(51, 51, 194);
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+}
+.register
+{
+    margin-left: 350px;
+    cursor: pointer;
+}
+.sign
+{
+    border: 2px  yellow solid;
+    border-radius: 10px;
+    background-color: rgb(51, 51, 194);
+    width: 100px;
+    text-align: center;
+    box-shadow: 4px 2px 3px 2px black;
+    cursor: pointer;
+    height: 25px;
+}
+.registre
+{
+    border: 2px  yellow solid;
+    border-radius: 10px;
+    background-color: rgb(51, 51, 194);
+    width: 120px;
+    text-align: center;
+    box-shadow: 4px 2px 3px 2px black;
+    cursor: pointer;
+    height: 25px;
+}
+.registre:hover,.sign:hover
+{
+    transform: scale(0.75);
+}
+.Body-container
+{
+    background-color: black;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 50px;
+
+}
+.TOP-GAME
+{
+    color: white;
+    font-size: 25px;
+}
+.picture-play
+{
+    display: flex;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.picture-play img
+{
+    height: 250px;
+    width: 238px;
+    cursor: pointer;
+}
+.picture
+{
+    display: flex;
+    color: white;
+    gap: 10px;
+}
+.icon
+{
+    display: flex;
+    gap: 10px;
+    margin-top: -17px;
+    border: 2px black solid;
+    background-color: rgb(51, 51, 194);
+    border-radius: 5px;
+    width: 110px;
+    padding-left: 5px;
+    padding-top: 5px;
+
+    
+    
+}
+.play
+{
+    color: white;
+    margin-top: 17px;
+  
+   
+}
+.icon img
+{
+    width: 40px;
+    height: 60px;
+    margin-top: -1px;
+}
+.icon img:hover
+{
+    transform: scale(0.75);
+}
+.word
+{
+    padding-top: 10px;
+}
+.point1
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    color: white;
+    background-color: red;
+}
+.point
+{
+    padding-top: 10px;
+    display: flex;
+    gap: 5px;
+    margin-left: 92%;
+}
+.jump-to
+{
+    display: flex;
+    gap: 20px;
+    padding-left: 28px;
+    color: white;
+    font-size: 20px;
+}
+.jump
+{
+    border: 2px gold solid;
+    background-color: whitesmoke;
+    width: 100px;
+    border-radius: 10px;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    height: 35px;
+}
+.jump2
+{
+    border: 2px gold solid;
+    background-color: whitesmoke;
+    width: 150px;
+    border-radius: 10px;
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+    height: 35px;
+}
+.best
+{
+    color: white;
+}
+.footer a 
+{
+    text-decoration: none;
+    color: blue;
+    padding-bottom: 40px;
+    
+}
+.footer
+{
+    display: flex;
+    gap: 30px;
+    margin-left: 10%;
+}
+.footer a:hover
+{
+    transition: 1s ease-in;
+    color: red;
+    text-decoration: underline;
+    transform: scale(0.75);
+}
